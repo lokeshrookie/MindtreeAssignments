@@ -1,0 +1,19 @@
+
+String.compareTo is used to sort string array
+Working of compare to method is :
+
+    static int compare(String s1, String s2){
+            int len1 = s1.length();
+            int len2 = s2.length();
+            int min = Math.min(len1, len2);
+            char[] ch1 = s1.toCharArray();
+            char[] ch2 = s2.toCharArray();
+            for(int i = 0; i<min; i++){
+                char c1 = ch1[i];
+                char c2 = ch2[i];
+                if(c1 != c2){
+                    return c1 - c2;
+                }
+            }
+            return len1 - len2;
+        }

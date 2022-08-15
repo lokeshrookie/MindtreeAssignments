@@ -1,0 +1,43 @@
+22.
+a) Identify the classes:
+
+    Company
+    Manager
+    Employee
+    Contractor
+
+b) Identify the relationships between each classes
+
+    Company class has employees
+    Manager Inherits
+
+
+c)
+Attributes:
+    Company:
+        attributes are: name:String and employees[] employees
+    Manager:
+        Employee[] manages
+    Contractor:
+        lengthOfContract: Date
+    Employee:
+        name: String
+        employeeNumber: int
+        salary: int
+        manager: Manager
+
+Methods:
+    Company:
+        String getName()
+        Employee getEmployees()
+    Employee:
+        String getName()
+        int getEmployeeNumber()
+        int getSalary()
+        Manager gerManager()
+    Manager:
+        void addTeamManager()
+        Employee[] gerTeamManager()
+    Contractor:
+        Date getLengthOfContract
+
