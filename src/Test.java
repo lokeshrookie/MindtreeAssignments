@@ -46,7 +46,6 @@ public class Test {
 //        ArrayList<Integer> list2 = new ArrayList<>(arrayList);
 //        ArrayList<Integer> list3 = new ArrayList<>(arrayList);
 //        System.out.println(arrayList);
-
 ////        arrayList.iterator();
 //        System.out.println(arrayList.iterator().hasNext());
 //        Iterator<Integer> iterator = arrayList.iterator();
@@ -54,7 +53,6 @@ public class Test {
 //            System.out.println(iterator.next());
 //
 //        }
-
 //        System.out.println(list2.indexOf(77));
     }
 }
